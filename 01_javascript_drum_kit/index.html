@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="utf-8">
+    <title>01 Java Script Drum Machine</title>
+    <link rel="stylesheet" href="assets/css/drum.min.css">
+</head>
+
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">China</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">Clap</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Cow Bell</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Crash</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">HH Close</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">HH Open</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">Ride</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">Rim Shot</span>
+        </div>
+        <div data-key="186" class="key">
+            <kbd>;</kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <div data-key="222" class="key">
+            <kbd>'</kbd>
+            <span class="sound">Splash</span>
+        </div>
+        <div data-key="220" class="key">
+            <kbd>\</kbd>
+            <span class="sound">Tom Hi</span>
+        </div>
+
+        <audio data-key="65" src="assets/audio/china.ogg"></audio>
+        <audio data-key="83" src="assets/audio/clap.ogg"></audio>
+        <audio data-key="68" src="assets/audio/cowbell.ogg"></audio>
+        <audio data-key="70" src="assets/audio/crash.ogg"></audio>
+        <audio data-key="71" src="assets/audio/hhclose.ogg"></audio>
+        <audio data-key="72" src="assets/audio/hhopen.ogg"></audio>
+        <audio data-key="74" src="assets/audio/kick.ogg"></audio>
+        <audio data-key="75" src="assets/audio/ride.ogg"></audio>
+        <audio data-key="76" src="assets/audio/rimshot.ogg"></audio>
+        <audio data-key="186" src="assets/audio/snare.ogg"></audio>
+        <audio data-key="222" src="assets/audio/splash.ogg"></audio>
+        <audio data-key="220" src="assets/audio/tomhi.ogg"></audio>
+    </div>
+
+    <script src="assets/js/drum.js"></script>
+</body>
+
+</html>
