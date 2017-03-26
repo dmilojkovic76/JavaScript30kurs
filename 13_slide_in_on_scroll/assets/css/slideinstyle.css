@@ -1,0 +1,59 @@
+html{
+	box-sizing: border-box;
+	background: #bada55;
+	font-family: 'helvetica neue';
+	font-size: 20px;
+	font-weight: 200;
+}
+
+body{
+	margin: 0;
+}
+
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+h1{
+	margin-top: 0;
+}
+.sadrzina {
+	background: #fff;
+	max-width: 80%;
+	text-align: justify;
+	margin: 100px auto;
+	padding: 40px;
+}
+
+.align__left {
+	float:left;
+	margin-right: 20px;
+}
+
+.align__right {
+	float:right;
+	margin-left: 20px;
+}
+
+.slide__in {
+	opacity:0;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.align__left.slide__in {
+	-webkit-transform: translateX(-30%) scale(0.95);
+	        transform: translateX(-30%) scale(0.95);
+}
+
+.align__right.slide__in {
+	-webkit-transform: translateX(30%) scale(0.95);
+	        transform: translateX(30%) scale(0.95);
+}
+
+.slide__in.active{
+	opacity: 1;
+	-webkit-transform: translateX(0) scale(1);
+	        transform: translateX(0) scale(1);
+}

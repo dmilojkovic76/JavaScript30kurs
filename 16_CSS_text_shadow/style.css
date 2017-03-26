@@ -1,0 +1,29 @@
+html {
+    color:black;
+    font-family: sans-serif;
+    background: linear-gradient(-45deg, #7e4ae8, #6B0F9C);
+}
+
+h1 {
+    text-shadow: 10px 10px 0 rgba(0,0,0,0.5);
+    font-size: 100px;
+    text-transform: uppercase;
+    display: flex;
+
+}
+
+.linija1{
+    color: #018DED;
+}
+
+.linija2{
+    color: #ffc600;
+}
+
+.hero {
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
