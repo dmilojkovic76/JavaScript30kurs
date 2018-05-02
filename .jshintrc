@@ -1,5 +1,5 @@
 {
-    "strict": true,
+    "strict": false,
     "esversion": 6,
     "browser": true,
     "devel": true
