@@ -1,44 +1,48 @@
 html {
-  box-sizing: border-box;
   background:#eeeeee;
+  box-sizing: border-box;
   font-family:'helvetica neue';
   font-size: 20px;
   font-weight: 200;
 }
+
 body {
   margin: 0;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 .site-wrap {
-  max-width: 700px;
-  margin: 70px auto;
-  background:white;
-  padding:40px;
-  text-align: justify;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
+    background: white;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+    margin: 70px auto;
+    max-width: 700px;
+    padding: 40px;
+    text-align: justify;
+    -webkit-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 .fixed-nav .site-wrap {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 header {
-  text-align: center;
-  height:50vh;
-  background:url(http://wes.io/iEgP/wow-so-deep.jpg) bottom center no-repeat;
-  background-size:cover;
-  display:flex;
-  align-items:center;
-  justify-content: center;
+    align-items:center;
+    background:url(http://wes.io/iEgP/wow-so-deep.jpg) bottom center no-repeat;
+    background-size:cover;
+    display:flex;
+    height:50vh;
+    justify-content: center;
+    text-align: center;
 }
 
 h1 {
@@ -48,41 +52,41 @@ h1 {
 }
 
 .fixed-nav nav{
-  position: fixed;
-  box-shadow: 0 5px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 2px rgba(0,0,0,0.3);
+    position: fixed;
 }
 
 nav {
   background:black;
-  top:0;
-  width: 100%;
-  transition:all 0.5s;
   position: relative;
+  top:0;
+  transition:all 0.5s;
+  width: 100%;
   z-index: 1;
 }
 
 nav ul {
+  display:flex;
+  list-style: none;
   margin: 0;
   padding:0;
-  list-style: none;
-  display:flex;
 }
 
 nav li {
-  flex:1;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    align-items: center;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    text-align: center;
 }
 
 li.logo {
-  max-width:0;
-  overflow: hidden;
-  background: white;
-  transition: all .5s;
-  font-weight: 600;
-  font-size: 30px;
+    background: white;
+    font-size: 30px;
+    font-weight: 600;
+    max-width:0;
+    overflow: hidden;
+    transition: all .5s;
 }
 
 .fixed-nav li.logo{
@@ -94,10 +98,10 @@ li.logo a {
 }
 
 nav a {
-  text-decoration: none;
-  padding:20px;
-  display: inline-block;
-  color:white;
-  transition:all 0.2s;
-  text-transform: uppercase;
+    color:white;
+    display: inline-block;
+    padding:20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:all 0.2s;
 }
